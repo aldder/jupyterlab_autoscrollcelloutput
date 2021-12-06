@@ -2,7 +2,9 @@
 
 [![Github Actions Status](https://github.com/aldder/jupyterlab_autoscrollcelloutput/workflows/Build/badge.svg)](https://github.com/aldder/jupyterlab_autoscrollcelloutput/actions/workflows/build.yml)
 
-A JupyterLab extension.
+A JupyterLab extension to automatically scroll code cell output to the bottom.
+
+![auto scroll example](autoscroll.gif)
 
 
 

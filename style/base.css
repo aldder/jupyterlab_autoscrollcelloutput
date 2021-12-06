@@ -1,0 +1,13 @@
+/** Toggled button background */
+.selected .buttonAutoScrollCellOuput {
+    background-color: var(--jp-layout-color2);
+}
+
+/* Toolbar icon */
+.wll-ScrollIcon {
+    background-color: var(--jp-inverse-layout-color3);
+    -webkit-mask-image: url(./scroll.png);
+    mask-image: url(./scroll.png);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}

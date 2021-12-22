@@ -42,13 +42,15 @@ export class ButtonAutoScrollCellOutput
       const triggerAutoScrollCellOutput = () => {
         if (SET) {
           SET = false;
-          if (button.hasClass('selected')) button.removeClass('selected');
+          console.log('Extension jupyterlab_autoscrollcelloutput disabled');
           clearInterval(t);
+          if (button.hasClass('selected')) button.removeClass('selected');
         }
         else {
           SET = true;
-          button.addClass('selected');
+          console.log('Extension jupyterlab_autoscrollcelloutput enabled');
           t = setInterval(JupyterLabAutoScroll, 10);
+          button.addClass('selected');
         }
       };
 

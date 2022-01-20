@@ -4,6 +4,8 @@
 
 A JupyterLab extension to automatically scroll code cell output to the bottom.
 
+Lots of credit goes to https://github.com/wallneradam/jupyterlab-output-auto-scroll
+
 ![auto scroll example](autoscroll.gif)
 
 

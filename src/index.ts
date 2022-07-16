@@ -42,11 +42,11 @@ class ButtonAutoScrollCellOutput {
         };
 
         const button = new ToolbarButton({
-            className: 'buttonAutoScrollCellOuput',
+            className: 'buttonAutoScrollCellOutput',
             iconClass: 'wll-ScrollIcon',
             label: 'scroll',
             onClick: triggerAutoScrollCellOutput,
-            tooltip: 'Auto Scroll Cell Ouput'
+            tooltip: 'Auto Scroll Cell Output'
         })
 
         panel.toolbar.insertItem(10, 'AutoScrollCellOutput', button);
